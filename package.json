@@ -1,0 +1,27 @@
+{
+  "name": "reverse-string",
+  "version": "0.0.1",
+  "description": "Reverse a word",
+  "main": "reverse-string.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+    "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cedced19/reverse-string"
+  },
+  "keywords": [
+    "reverse",
+    "string"
+  ],
+  "author": "cedced19",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedced19/reverse-string/issues"
+  },
+  "homepage": "https://github.com/cedced19/reverse-string"
+}
