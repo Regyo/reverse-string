@@ -12,7 +12,7 @@ You can use this package on the server side as well as the client side.
 npm install reverse-string
 ```
 
-### Usage
+## Usage
 
 Reverse a string
 "yo" --> "oy"
