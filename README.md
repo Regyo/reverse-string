@@ -1,6 +1,6 @@
 # Reverse String
 
-
+[![Build Status](https://travis-ci.org/cedced19/reverse-string.svg)](https://travis-ci.org/cedced19/reverse-string)
 
 ## Installation
 
