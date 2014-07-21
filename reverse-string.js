@@ -1,4 +1,4 @@
-function reverse (string) {
+reverse = function (string) {
 
     var tab = new Array;
 
@@ -13,4 +13,4 @@ function reverse (string) {
     return result;
 }
 
-console.log(reverse('papa'));
+module.exports = reverse
