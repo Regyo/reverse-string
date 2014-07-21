@@ -1,0 +1,25 @@
+{
+  "name": "reverse-string",
+  "main": "reverse-string.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cedced19/reverse-string",
+  "description": "Reverse a string",
+  "keywords": [
+    "reverse",
+    "string"
+  ],
+  "authors": [
+    "cedced19"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".travis.yml",
+    ".npmignore",
+    ".gitignore"
+  ]
+}
