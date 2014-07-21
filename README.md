@@ -12,6 +12,12 @@ You can use this package on the server side as well as the client side.
 npm install reverse-string
 ```
 
+### [Bower](http://bower.io/)
+
+```
+bower install reverse-string
+```
+
 ## Usage
 
 Reverse a string
