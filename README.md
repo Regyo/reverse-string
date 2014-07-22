@@ -21,7 +21,7 @@ bower install reverse-string
 ## Usage
 
 Reverse a string
-"yo" --> "oy"
+"test" --> "tset"
 
 ## How to use
 
