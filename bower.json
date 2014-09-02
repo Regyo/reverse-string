@@ -1,7 +1,7 @@
 {
   "name": "reverse-string",
   "main": "reverse-string.js",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "homepage": "https://github.com/cedced19/reverse-string",
   "description": "Reverse a string",
   "keywords": [

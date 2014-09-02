@@ -4,4 +4,6 @@ function reverse(string) {
   return result.join('');
 }
 
-module.exports = reverse;
+if (typeof module != 'undefined' && module.exports) {
+    module.exports = reverse;
+}
