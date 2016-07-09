@@ -1,21 +1,24 @@
-# Reverse String
+# reverse-string
+
+> Reverse a string (with Unicode support). 'foo' → 'oof'
 
 [![Build Status](https://travis-ci.org/cedced19/reverse-string.svg)](https://travis-ci.org/cedced19/reverse-string)
 [![NPM version](https://badge.fury.io/js/reverse-string.svg)](http://badge.fury.io/js/reverse-string)
 
-It uses the Implementation 6 of [Edd Mann's post](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/) because it seems to be the fastest way to reverse string.
+This module was inspired by Implementation #1 of [Edd Mann's post](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/):
+ a high-performance algorithm for string reversal.
 
-## Installation
+## Install
 
-You can use this package on the server side as well as the client side.
+You can use this module in node or in the browser.
 
-### [Node.js](http://nodejs.org/)
+For use via [Node.js](http://nodejs.org/):
 
 ```
-npm install reverse-string
+npm install --save reverse-string
 ```
 
-### [Bower](http://bower.io/)
+For use via [Bower](http://bower.io/):
 
 ```
 bower install reverse-string
@@ -23,13 +26,28 @@ bower install reverse-string
 
 ## Usage
 
-Reverse a string
-"test" --> "tset"
-
-## How to use
-
-~~~ javascript
+```js
 var reverse = require('reverse-string');
 
-console.log(reverse("test"));
-~~~
+reverse('test');
+//=> 'tset'
+```
+
+## API
+
+### `reverseString(string)`
+
+Returns a reversed string.
+
+#### string
+
+*Required* <br/>
+Type: `string`
+
+The string you want to reverse. Allows unicode and latin characters.
+
+## License
+
+MIT @ [Cédric JUNG](https://cedced19.github.io/)
+
+

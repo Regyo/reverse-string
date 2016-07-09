@@ -1,9 +1,9 @@
 {
   "name": "reverse-string",
   "main": "reverse-string.js",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "homepage": "https://github.com/cedced19/reverse-string",
-  "description": "Reverse a string",
+  "description": "Reverse a string (with Unicode support) 'foo' → 'oof'",
   "keywords": [
     "reverse",
     "string"
@@ -23,3 +23,4 @@
     ".gitignore"
   ]
 }
+
