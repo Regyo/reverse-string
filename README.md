@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/cedced19/reverse-string.svg)](https://travis-ci.org/cedced19/reverse-string)
 [![NPM version](https://badge.fury.io/js/reverse-string.svg)](http://badge.fury.io/js/reverse-string)
 
-This module was inspired by Implementation #6 of [Edd Mann's post](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/),
+This module was inspired by Implementation #1 of [Edd Mann's post](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/),
  a high-performance algorithm for string reversal.
 
 ## Install
