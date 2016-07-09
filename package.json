@@ -1,6 +1,6 @@
 {
   "name": "reverse-string",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Reverse a string",
   "main": "reverse-string.js",
   "engines": {
