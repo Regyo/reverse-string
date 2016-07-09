@@ -1,7 +1,7 @@
 {
   "name": "reverse-string",
   "version": "0.0.5",
-  "description": "Reverse a string 'foo' → 'oof'",
+  "description": "Reverse a string (with Unicode support) 'foo' → 'oof'",
   "main": "reverse-string.js",
   "engines": {
     "node": ">=0.10.0"
