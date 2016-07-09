@@ -1,7 +1,7 @@
 var assert = require('assert');
 var reverse = require('./reverse-string');
 
-assert.throws(function() {
+assert.throws(function () {
 	reverse([]);
 }, TypeError);
 
