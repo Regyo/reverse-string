@@ -1,6 +1,10 @@
 var assert = require('assert');
 var reverse = require('./reverse-string');
 
+assert.throws(function() {
+	reverse([]);
+}, TypeError);
+
 assert.equal(reverse('foo'), 'oof');
 assert.equal(reverse('foo bar'), 'rab oof');
 assert.equal(reverse('123'), '321');

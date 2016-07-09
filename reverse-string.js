@@ -2,6 +2,10 @@ var regexUnicode = /([\0-\u02FF\u0370-\u1AAF\u1B00-\u1DBF\u1E00-\u20CF\u2100-\uD
 var regexAstral =  /([\uD800-\uDBFF])([\uDC00-\uDFFF])/g;
 
 function reverse(string) {
+	if (typeof string !== 'string') {
+		throw new TypeError('Expected a string');
+	}
+
 	string = string.replace(regexUnicode, function($0, $1, $2) {
 		return reverse($2) + $1;
 	}).replace(regexAstral, '$2$1');
