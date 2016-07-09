@@ -14,6 +14,9 @@
     "reverse",
     "string"
   ],
+  "scripts": {
+    "test": "node test.js"
+  },
   "author": "cedced19",
   "license": "MIT",
   "bugs": {
